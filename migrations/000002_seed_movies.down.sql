@@ -1,1 +1,0 @@
-DELETE FROM movies WHERE omdbid IN ('1234', '2345', '3456');

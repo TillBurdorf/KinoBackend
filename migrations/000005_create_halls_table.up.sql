@@ -1,5 +1,0 @@
-CREATE TABLE IF NOT EXISTS halls (
-    id UUID PRIMARY KEY NOT NULL,
-    name VARCHAR(255) NOT NULL,
-    capacity INT NOT NULL
-);

@@ -14,6 +14,8 @@ import (
 )
 
 // Users-Handler
+
+//encore:api public method=GET path=/v1/movies
 func (app *application) registerUsersHandler(w http.ResponseWriter, r *http.Request) {
 	var request models.RegistrationRequest
 

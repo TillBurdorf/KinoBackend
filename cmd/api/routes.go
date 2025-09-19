@@ -13,6 +13,8 @@ func (app *application) route() http.Handler {
 	r.HandleFunc("/v1/healthcheck", app.healthcheck).Methods("GET")
 
 	// Movies
+	
+	//encore:api public
 	r.HandleFunc("/v1/movies", app.getCreateMoviesHandler).Methods("GET", "POST")
 	r.HandleFunc("/v1/movies/{id}", app.getUpdateDeleteMoviesHandler).Methods("GET", "DELETE", "PUT", "PATCH")
 

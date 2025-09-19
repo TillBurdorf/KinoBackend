@@ -1,3 +1,3 @@
 {
-	"id": "kinobackend-wuni",
+	"id": "testbackend-b5ui",
 }

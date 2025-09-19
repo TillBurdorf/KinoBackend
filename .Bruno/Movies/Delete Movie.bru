@@ -1,0 +1,19 @@
+meta {
+  name: Delete Movie
+  type: http
+  seq: 3
+}
+
+delete {
+  url: 127.0.0.1:8080/v1/movies/{{id}}
+  body: none
+  auth: inherit
+}
+
+vars:pre-request {
+  id: 
+}
+
+settings {
+  encodeUrl: true
+}
